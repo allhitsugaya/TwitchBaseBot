@@ -5,9 +5,9 @@ from telegram.ext import Updater, MessageHandler, Filters, CommandHandler, Callb
 from telegram.error import BadRequest
 
 #Конфигурация
-BOT_TOKEN = '8197204210:AAFDf5Wv63lNWRLzg5vlAWKY5LbHfum0TgQ'
-TARGET_USER_ID = 966155907
-CHANNEL_USERNAME = '@difu3en4u'
+BOT_TOKEN = 'YOUR_TOKEN'
+TARGET_USER_ID = YOUR_ID
+CHANNEL_USERNAME = 'your_channelname'
 
 conn = sqlite3.connect('messages.db', check_same_thread=False)
 cursor = conn.cursor()
